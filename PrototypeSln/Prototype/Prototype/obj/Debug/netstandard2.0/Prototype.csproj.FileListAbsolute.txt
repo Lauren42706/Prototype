@@ -13,3 +13,4 @@ C:\Xamarin\Prototype\PrototypeSln\Prototype\Prototype\obj\Debug\netstandard2.0\P
 C:\Xamarin\Prototype\PrototypeSln\Prototype\Prototype\obj\Debug\netstandard2.0\refint\Prototype.dll
 C:\Xamarin\Prototype\PrototypeSln\Prototype\Prototype\obj\Debug\netstandard2.0\Prototype.pdb
 C:\Xamarin\Prototype\PrototypeSln\Prototype\Prototype\obj\Debug\netstandard2.0\ref\Prototype.dll
+C:\Xamarin\Prototype\PrototypeSln\Prototype\Prototype\obj\Debug\netstandard2.0\SignUp.xaml.g.cs

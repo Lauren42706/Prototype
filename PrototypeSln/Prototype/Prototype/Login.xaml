@@ -47,15 +47,22 @@
             Text="Login" FontSize="Medium" FontAttributes="Bold"/>
 
         <Label Grid.Column="1" Grid.Row="6"
-            Margin="10,0" Grid.ColumnSpan="1"
-            HorizontalTextAlignment="Center" Padding="10">
+            Margin="0,10,0,0" Padding="0, 0, 0, 0" Grid.ColumnSpan="1"
+            HorizontalTextAlignment="Center">
             <Label.FormattedText>
                 <FormattedString>
-                    <Span Text="New Here? Create an Account!" 
+                    <Span Text="Create an Account!" 
                           TextDecorations="Underline">
                         <Span.GestureRecognizers>
                             <TapGestureRecognizer Command="{Binding TapCommand}"
                                                   CommandParameter="https://www.youtube.com/watch?v=xvFZjo5PgG0"/>
+                        </Span.GestureRecognizers>
+                    </Span>
+                    <Span Text="Forgot Password?"
+                          TextDecorations="Underline">
+                        <Span.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding TapCommand}"
+                                                  CommandParameter="https://www.youtube.com/watch?v=4KfC923EFsY"/>
                         </Span.GestureRecognizers>
                     </Span>
                 </FormattedString>
