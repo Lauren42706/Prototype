@@ -59,7 +59,7 @@
 
     <Image Source="star" Background="#ec86f7"
                Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2"/>
-    <!--The Grid.ColumnSpan shows how much of the screen is covered
+    The Grid.ColumnSpan shows how much of the screen is covered
         in the powderblue colour. Taking it away makes half the screen 
         powderblue
 
