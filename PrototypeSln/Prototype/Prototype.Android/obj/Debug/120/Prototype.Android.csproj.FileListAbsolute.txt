@@ -630,3 +630,6 @@ C:\Xamarin\Prototype\PrototypeSln\Prototype\Prototype.Android\obj\Debug\120\stam
 C:\Xamarin\Prototype\PrototypeSln\Prototype\Prototype.Android\obj\Debug\120\stamp\_GenerateJavaStubs.stamp
 C:\Xamarin\Prototype\PrototypeSln\Prototype\Prototype.Android\obj\Debug\120\stamp\_GeneratePackageManagerJava.stamp
 C:\Xamarin\Prototype\PrototypeSln\Prototype\Prototype.Android\obj\Debug\120\stamp\_ResolveLibraryProjectImports.stamp
+C:\Xamarin\Prototype\PrototypeSln\Prototype\Prototype.Android\obj\Debug\120\res\drawable\xamarin_logo.png
+C:\Xamarin\Prototype\PrototypeSln\Prototype\Prototype.Android\obj\Debug\120\res\drawable\icon_about.png
+C:\Xamarin\Prototype\PrototypeSln\Prototype\Prototype.Android\obj\Debug\120\res\drawable\icon_feed.png
