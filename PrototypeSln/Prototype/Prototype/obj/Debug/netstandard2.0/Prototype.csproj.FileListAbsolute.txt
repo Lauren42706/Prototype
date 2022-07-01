@@ -16,3 +16,4 @@ C:\Xamarin\Prototype\PrototypeSln\Prototype\Prototype\obj\Debug\netstandard2.0\V
 C:\Xamarin\Prototype\PrototypeSln\Prototype\Prototype\obj\Debug\netstandard2.0\View\SignUp.xaml.g.cs
 C:\Xamarin\Prototype\PrototypeSln\Prototype\Prototype\obj\Debug\netstandard2.0\View\HomePage.xaml.g.cs
 C:\Xamarin\Prototype\PrototypeSln\Prototype\Prototype\obj\Debug\netstandard2.0\View\ProfilePage.xaml.g.cs
+C:\Xamarin\Prototype\PrototypeSln\Prototype\Prototype\obj\Debug\netstandard2.0\View\ViewProgress.xaml.g.cs

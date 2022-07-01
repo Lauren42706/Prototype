@@ -1,7 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Prototype.View.HomePage">
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:Prototype.Model" 
+             xmlns:ViewModels="clr-namespace:Prototype.ViewModel"
+             x:Class="Prototype.View.HomePage"
+             BackgroundColor="WhiteSmoke">
+    <ContentPage.BindingContext>
+        <ViewModels:HomeProgressPage/>
+    </ContentPage.BindingContext>
     <ContentPage.ToolbarItems>
         <ToolbarItem Clicked="ProfileClicked">
             <ToolbarItem.IconImageSource>
@@ -12,5 +18,59 @@
             </ToolbarItem.IconImageSource>
         </ToolbarItem>
     </ContentPage.ToolbarItems>
+
+    <ListView ItemsSource="{Binding ChildProgress}"
+              HasUnevenRows="True"
+              SelectionMode="None">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <Grid Padding="7">
+                        <Frame>
+                            <StackLayout>
+                                <Label Text="{Binding ChildName}"/>
+                                <ProgressBar Progress="{Binding ProgressBar}"/>
+                            </StackLayout>
+                        </Frame>
+                    </Grid>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
     
 </ContentPage>
+    
+    <!--
+        <Grid>
+    <Grid.RowDefinitions>
+        <RowDefinition Height="*"/>
+        The star between the quotes means that you everything to be relational width and height;
+            In other words, both width and the height are even.
+        <RowDefinition Height="2*"/>
+        <RowDefinition Height=".4*"/>
+        <RowDefinition Height="2*"/>
+        rows are the height part of the screen
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="*"/>
+        columns are the width part of the screen
+    </Grid.ColumnDefinitions>
+
+    <Image Source="star" Background="#ec86f7"
+               Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2"/>
+    <!--The Grid.ColumnSpan shows how much of the screen is covered
+        in the powderblue colour. Taking it away makes half the screen 
+        powderblue
+
+    <Editor Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="1"
+                Placeholder="Enter Something"/>
+
+    <Button Grid.Row="2" Grid.Column="0" Text="Save" BackgroundColor="ForestGreen"/>
+
+    <Button Grid.Row="2" Grid.Column="1" Text="Erase" Clicked="Button_Clicked" BackgroundColor="Red"/>
+
+    <Label Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2"
+               Text=" :)" FontSize="Large" HorizontalTextAlignment="Center"/>
+    </Grid>
+    -->
